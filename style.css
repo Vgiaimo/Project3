@@ -1,0 +1,191 @@
+
+/* site navigation bar */
+
+.site-nav {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.site-nav a:not(.active){
+	text-decoration: none;
+	color: red;
+	padding: 10px 20px;
+	border: 3px solid  black;
+	font-weight: bold;
+	background-color: black;
+}
+
+.site-nav a:hover{
+	background-color: black;
+	opacity: 0.5;
+}
+
+.site-nav a.active{
+	text-decoration: underline;
+	color: red;
+	padding: 10px 20px;
+	border: 3px solid red;
+	font-weight: bold;
+	background-color: black;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+/* end nav bar */
+
+
+
+/* EvoPage */
+#evopage{
+	background-color: #595959;
+	text-align: center;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+#evopage p,ul{
+	font-size: 1.4rem;
+	color: black;
+	list-style-type: none;
+}
+
+.evospecs{
+	font-size: 1.4rem;
+	color: black;
+
+}
+
+.EvoPerformance{
+	font-size: 1.4rem;
+	color: black;
+
+}
+
+
+.header-e{
+	background: gray;
+	height: 130px;
+	border: solid 2px #000;
+	color: black;
+}
+
+@media screen and (min-width: 960px){
+	.evovid, .evo9{
+		width: 700px;
+	}
+}
+
+@media screen and (max-width: 960px){
+	.evovid, .evo9{
+		width: 600px
+	}
+}
+
+
+@media screen and (max-width: 500px){
+	.evovid, .evo9{
+		width: 400px;
+	}
+}
+
+div .evoV{
+	width: 80px;
+	height: 500px;
+	text-align: center;
+	display: inline;
+	margin: 0 auto
+}
+
+video{
+	max-width: 80%;
+	
+}
+
+/*Raptorpage*/
+#Raptorpage{
+ background: #595959;
+	text-align: center;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#Raptorpage p,ul{
+	font-size: 1.4rem;
+	color: black;
+}
+
+
+
+/* Resume Page */
+
+#Resumepage {
+	font-family: 'Spectral', serif;
+	margin: 0px;
+}
+
+#container{
+	width: 960px;
+	margin: 0px auto;
+}
+
+.header{
+	background: gray;
+	height: 130px;
+	width: 960px;
+	border: solid 2px #000;
+	color: black;
+	text-align: center;
+}
+
+.nav{
+	background: gray;
+	height: 80px;
+	width: 960px;
+	border: solid 2px #000;
+
+}
+
+.Main{
+	background: gray;
+	height: 900px;
+	width: 960px;
+	border: solid 2px #000;
+}
+
+
+#Resumepage p{
+	font-size: 140%;
+}
+
+/* end Resume */
+
+li {
+	list-style-type: none;
+}
+
+#Menu{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#belowMenuh2{
+	margin-top: 50px;
+}
+

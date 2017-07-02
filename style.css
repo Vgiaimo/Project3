@@ -189,3 +189,96 @@ li {
 	margin-top: 50px;
 }
 
+/*GOOGLEMAPSGOOGLEMAPSGOOGLEMAPSGOOGLEMAPSGOOGLEMAPSGOOGLEMAPS*/
+
+.sicily{
+	background: red;
+}
+
+.navbar-googlemaps {
+	background-color: #4d4d4d;
+	text-align: center;
+}
+
+.navbar-googlemaps ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.navbar-googlemaps ul li {
+	float: left;
+	margin: 0;
+}
+
+.navbar-googlemaps a {
+	text-decoration: none;
+	color: red;
+	padding: 10px 20px;
+	display: block;
+	font-size: 140%;
+}
+
+.navbar-googlemaps a:hover {
+	background-color: black;
+}
+
+
+
+.googlemaps-footer {
+	background-color: #4d4d4d;
+	padding: 30px;
+	text-align: center;
+	color: red;
+}
+
+.map-title {
+	text-align: center;
+	font-size: 300%;
+}
+
+#map {
+      height: 100%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+   
+
+
+#wrapper {
+	max-width: 960px;
+	height: 960px;
+	background-color: gray;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#canvas {
+	width: 700px;
+	height: 700px;
+	background-color: gray;
+	margin: 30px auto;
+}
+
+
+@media screen and (max-width: 650px){
+
+
+	
+
+	.navbar-googlemaps {
+		font-size: .8em;
+	}
+
+	.navbar-googlemaps ul li {
+		font-size: 70%;
+	}
+
+	.navbar-googlemaps a {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 0 0;
+	}
+
+	
+
+}

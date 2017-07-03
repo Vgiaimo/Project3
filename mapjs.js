@@ -147,7 +147,6 @@
           setTimeout(function () { Salumeria.close(); }, 8000);
           });
 
-          google.maps.event.addListenerOnce(map, 'idle', function(){
-          getForecast();
-          });
+          google.maps.event.addDomListener(window,'load', initialize);
+          $(document).bind("projectLoadComplete", initialize);
 }

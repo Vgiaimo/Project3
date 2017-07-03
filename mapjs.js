@@ -2,7 +2,7 @@
 
   var casa = '<h1>Home Town (Citta Borgetto)</h1><img src="Images/Borgetto.jpg">';
 
-  var club = '<h1>Baia Le Grotte</h1><p>Popular Night Club on the Beach</p><img src="Images/legrotte.jpg">';
+  var club = '<h1>Baia Le Grotte</h1><p>Popular Night Club on the Beach</p><img src="Images/Legrotte.jpg">';
 
   var skyCastle='<h1>Erice</h1><p> Castle di Venere-located on Mountain Peak</p><img src="Images/Erice.jpg">';
 

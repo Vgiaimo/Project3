@@ -4,7 +4,7 @@
 
   var club = '<h1>Baia Le Grotte</h1><p>Popular Night Club on the Beach</p><img src="Images/Legrotte.jpg">';
 
-  var skyCastle='<h1>Erice</h1><p> Castle di Venere-located on Mountain Peak</p><img src="Images/Erice.jpg">';
+  var skyCastle='<h1>Erice</h1><p> Castle di Venere-located on Mountain Peak</p><img src="Images/erice.jpg">';
 
   var Beach = '<h1>Balestrate Beach</h1><p>Popular local Beach</p><img src="Images/Balestrate.jpg">';
 

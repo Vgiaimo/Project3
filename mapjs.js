@@ -23,6 +23,7 @@
         scrollwheel: true,
         zoom: 9,
         mapTypeId: 'hybrid',
+        google.maps.event.addDomListener(window, 'load', initialize);
         });
 
         var BorgettoMarker = new google.maps.Marker({

@@ -8,6 +8,12 @@
 
   var Beach = '<h1>Balestrate Beach</h1><p>Popular local Beach</p><img src="Images/Balestrate.jpg">';
 
+  var Cafe = '<h1>Burgnano Cafe</h1><p>Local Cafe</p><img src="Images/Brugnano.jpg">';
+
+  var gelato ='<h1>Case del Gelato</h1><p>Favorite ice cream shop</p><img src="Images/gelato.jpg">';
+
+  var deli ='<h1>Salumeria Patti</h1><p> Best deli in town</P><img src="Images/patti.jpg">';
+
   function initMap() {
         // Create a map object and specify the DOM element for display.
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -86,8 +92,58 @@
           });
 
 
+          var BrugnanoMarker = new google.maps.Marker({
+          position: {lat: 38.072130, lng: 13.093335},
+          map: map,
+          title: 'Brugnano Cafe',
+          animation: google.maps.Animation.DROP
+        });
+
+        var Brugnano = new google.maps.InfoWindow({
+          content: Cafe
+          });
+
+          BrugnanoMarker.addListener('click', function() {
+          Brugnano.open(map, BrugnanoMarker);
+
+          setTimeout(function () { Brugnano.close(); }, 8000);
+          });
 
 
+          var GelatoMarker = new google.maps.Marker({
+          position: {lat: 38.045599, lng: 13.122317},
+          map: map,
+          title: 'Case del Gelato',
+          animation: google.maps.Animation.DROP
+        });
 
-        }
+        var Gelato = new google.maps.InfoWindow({
+          content: gelato
+          });
+
+          GelatoMarker.addListener('click', function() {
+          Gelato.open(map, GelatoMarker);
+
+          setTimeout(function () { Gelato.close(); }, 8000);
+          });
+
+
+           var SalumeriaMarker = new google.maps.Marker({
+          position: {lat: 38.047247, lng: 13.142773},
+          map: map,
+          title: 'Salumeria Patti',
+          animation: google.maps.Animation.DROP
+        });
+
+        var Salumeria = new google.maps.InfoWindow({
+          content: deli
+          });
+
+          SalumeriaMarker.addListener('click', function() {
+          Salumeria.open(map, SalumeriaMarker);
+
+          setTimeout(function () { Salumeria.close(); }, 8000);
+          });
+
+}
       
